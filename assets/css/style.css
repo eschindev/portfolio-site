@@ -2,11 +2,12 @@
     --dark: #222;
     --med-dark: rgb(38, 85, 114);
     --medium: rgb(120, 38, 120);
-    --light: #fff;
+    --light: #d8d7d7;
     --radius: 5px;
     font-size: 14px;
     background-color: var(--dark);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.5;
 }
   
 header {
@@ -50,9 +51,25 @@ p {
     line-height: 1.5;
 }
 
+#name {
+    display: inline;
+}
+
+#name img {
+    max-width: 100px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+}
+
 #banner-text {
     text-align: right;
     margin: -50px 80px 0 0;
+}
+
+#banner-image {
+    border-top: 2px aqua solid;
+    border-bottom: 2px aqua solid;
 }
 
 .on-left {
@@ -76,8 +93,9 @@ section {
 }
 
 .project-header {
+    width: 100%;
     text-align: right;
-    margin: 0 10px -40px 0;
+    margin: 0 20px -70px 0;
     z-index: 100;
 }
 
@@ -88,19 +106,23 @@ section {
     margin-right: auto;
 }
 
-#project1 {
-    max-width: 90%;
-}
-
-#proj1-image {
-    z-index: 0;
-}
-
 .small-projects {
     display: flex;
     flex-wrap: wrap;
     max-width: 40%;
+    min-width: 400px;
     height: auto;
+    margin: 40px 3% 0 3%;
+}
+
+#project1 {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#project1-header {
+    margin: 0 40px -70px 0;
 }
 
 .small-projects img {
@@ -111,7 +133,6 @@ section {
 #projects img {
     border-radius: 5%;
     border: 2px aqua solid;
-    z-index: 0;
 }
   
   
