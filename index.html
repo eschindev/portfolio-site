@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Code Snippets</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
+    <title>Evan Schindler</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <header>
@@ -18,41 +18,62 @@
         </div>
     </header>
     <div id="banner">
-        <img src="#" id="banner-image" />
-        <h2 id="banner-text">&#123;&#123;A Clever Subtitle for a Portfolio&#125;&#125;</h2>
+        <img src="./assets/images/landscape.png" id="banner-image" />
+        <div id="banner-text">
+            <h2>&#123;&#123;Frontend Web Dev is Cheeks&#125;&#125;</h2>
+        </div>
     </div>
     <section id="about-me">
         <div class="on-left">
-            <h2 class=>About Me</h2>
+            <h2>About Me</h2>
         </div>
-        <p>Lorem ipsum</p>
+        <div class="on-right">
+            <p>Lorem ipsum</p>
+        </div>
     </section>
     <section id="my-projects">
         <div class="on-left">
             <h2>My Projects</h2>
         </div>
-        <div id="projects">
-
+        <div id="projects" class="on-right">
+            <div id="project1">
+                <img src="./assets/images/astronaut.png" />
+            </div>
+            <div id="project2" class="small-projects">
+                <img src="./assets/images/anime-girl.png" />
+            </div>
+            <div id="project3" class="small-projects">
+                <img src="./assets/images/anime-girl.png" />
+            </div>
+            <div id="project4" class="small-projects">
+                <img src="./assets/images/anime-girl.png" />
+            </div>
+            <div id="project5" class="small-projects">
+                <img src="./assets/images/anime-girl.png" />
+            </div>
         </div>
     </section>
     <section id="contact-me">
         <div class="on-left">
             <h2>Contact Me</h2>
         </div>
-        <div>
+        <div class="on-right">
 
         </div>
     </section>
     <section id="resume">
         <div class="on-left">
-            <h2>My Projects</h2>
+            <h2>Resume</h2>
         </div>
-        <div>
+        <div class="on-right">
 
         </div>
     </section>
     <footer>
-        
+        <h2 class="footer-link"><a href="#about-me">About Me</a></h2>
+            <h2 class="footer-link"><a href="#my-projects">My Projects</a></h2>
+            <h2 class="footer-link"><a href="#contact-me">Contact Me</a></h2>
+            <h2 class="footer-link"><a href="#resume">Resume</a></h2>
     </footer>
   </body>
 </html>  

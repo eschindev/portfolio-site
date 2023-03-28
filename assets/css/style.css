@@ -1,0 +1,91 @@
+:root {
+    --dark: #222;
+    --med-dark: rgb(38, 85, 114);
+    --medium: rgb(120, 38, 120);
+    --light: #fff;
+    --radius: 5px;
+    font-size: 14px;
+    background-color: var(--dark);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+  
+  
+header {
+    display: block;
+    margin: 20px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 300%;
+    color: var(--light);
+}
+
+h2 {
+    font-size: 200%;
+}
+
+header h2 {
+    text-align: right;
+}
+
+#navbar {
+    float: right;
+    display: inline;
+    padding: 20px;
+}
+
+#navbar h2 {
+    padding-left: 20px;
+    color: var(--light);
+}
+
+.header-link {
+    display: inline;
+    text-align: right;
+}
+
+#banner-text {
+    background-color: #cecece;
+    text-align: right;
+    margin: -50px 80px 0 0;
+}
+
+.on-left {
+    width: 25%;
+    text-align: left;
+    border-right-style: solid;
+    border-right-color:aqua;
+    color: var(--light);
+}
+
+.on-right {
+    padding-left: 5%;
+}
+
+section {
+    display: flex;
+    padding: 40px;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#project1 {
+    width: 100%;
+}
+
+.small-projects {
+    display: flex;
+    max-width: 40%;
+    height: auto;
+}
+
+.small-projects img {
+    max-width: 100%;
+    height: auto;
+}
+  
+  
